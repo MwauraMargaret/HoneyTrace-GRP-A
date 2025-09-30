@@ -1,8 +1,8 @@
-from web3 import Web3
-import os
-from dotenv import load_dotenv
+#rom web3 import Web3
+#mport os
+#rom dotenv import load_dotenv
 
-load_dotenv()
+#oad_dotenv()
 
 class EthereumAdapter:
     def __init__(self):
@@ -11,20 +11,20 @@ class EthereumAdapter:
         self.account = None
         self.connect_to_ethereum()
     
-    def connect_to_ethereum(self):
-        """Connect to Ethereum network"""
-        try:
-            # For development - connect to Hardhat network
-            self.w3 = Web3(Web3.HTTPProvider('http://localhost:8545'))
-            
-            if self.w3.is_connected():
-                print("Connected to Ethereum network")
-                print(f"Latest block: {self.w3.eth.block_number}")
-            else:
-                print("Failed to connect to Ethereum network")
+   #def connect_to_ethereum(self):
+    #   """Connect to Ethereum network"""
+     #  try:
+      #     # For development - connect to Hardhat network
+       #   #self.w3 = Web3(Web3.HTTPProvider('http://localhost:8545'))
+        #   
+         #  if self.w3.is_connected():
+          #     print("Connected to Ethereum network")
+           #    print(f"Latest block: {self.w3.eth.block_number}")
+           #else:
+            #   print("Failed to connect to Ethereum network")
                 
-        except Exception as e:
-            print(f"Connection error: {e}")
+      # except Exception as e:
+       #    print(f"Connection error: {e}")
     
     def load_contract(self, contract_address, abi):
         """Load smart contract"""
