@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\smwau\\Documents\\HoneyTrace-GRP-A\\contracts\\contracts\\AsaliTrace.sol": {
+      "lastModificationDate": 1759215552137,
+      "contentHash": "23dce5edcd8e1dc6bb775cd1cbd8f84a",
+      "sourceName": "contracts/AsaliTrace.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "AsaliTrace"
+      ]
+    }
+  }
+}
