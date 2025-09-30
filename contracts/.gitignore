@@ -10,6 +10,7 @@ artifacts/
 cache/
 build-info/
 typechain/
+contracts\Asalitrace.sol
 
 # Environment variables
 .env
