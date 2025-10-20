@@ -1,5 +1,5 @@
 import { ethers } from "ethers";
-import AsaliTrace from "../../contracts/artifacts/contracts/AsaliTrace.sol/AsaliTrace.json";
+import AsaliTrace from "../../contracts/contracts/AsaliTrace.sol/AsaliTrace.json";
 
 // Deployed contract address (replace after deployment)
 const contractAddress = "0xYourContractAddress";
