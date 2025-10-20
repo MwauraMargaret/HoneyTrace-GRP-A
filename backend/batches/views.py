@@ -2,7 +2,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from .models import Batch, LabTest, Certificate
 from .serializers import BatchSerializer, LabTestSerializer, CertificateSerializer
-from asalitrace.blockchain.eth_adapter import EthereumAdapter
+#rom asalitrace.blockchain.eth_adapter import EthereumAdapter
 
 class BatchViewSet(viewsets.ModelViewSet):
     queryset = Batch.objects.all()
